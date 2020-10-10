@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0px;
+	font-family: 'Sansita Swashed', cursive;
+}
+header {
+  width: 100%;
+  height: 60px;
+
+ background-color: #F0A500;
+
+}.cajaimagen img {
+	width: 100%;
+	height: 300PX;
+	object-fit:fill;
+	
+}.cajaimagen h1 {
+	position: absolute;
+	margin-top: -205px;
+	margin-left: 300px;
+	color: aliceblue;
+	font-size:60px;
+}
+.logo {
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 50px;
+  float: left;
+}
+.logoResponsive {
+  width: 50px;
+  margin-top: 5px;
+  float: right;
+  display: none;
+}
+.nav {
+  width: 500px;
+  float: left;
+  margin-left: 50px;
+  list-style: none;
+  margin-top: 12px;
+}
+
+.bt {
+  float: left;
+  margin-right: 30px;
+  padding: 10px;
+  background: ;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+ 
+}
+
+.bt:hover {
+  color: #ffffff;
+  background-color:#87431D;
+}
+.mas {
+  display: flex;
+  flex-direction: column;
+}
+
+.mostrar {
+  display: block;
+}
+.mas:hover {
+  background-color: rgba(247, 75, 52, 1);
+}
+
+
+/*SECCION DEL MENU RESPONSIVE*/
+.cajaDeIconosResponsive {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#iconoMenuResposive {
+  width: 35px;
+  margin-top: 10px;
+  float: left;
+  display: none;
+  margin-left: 10px;
+}
+#iconoMenuCerrar {
+  width: 25px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 10px;
+}
+.none {
+  display: none;
+}
+.cajaDeIconosResponsive {
+  display: none;
+}
+/* -----------SECCIÓN DE RESPONSI MOVIL */
+@media only screen and (max-width: 767px) {
+  .cajaDeIconosResponsive {
+    display: block;
+  }
+  
+  .logo {
+    display: none;
+  }
+  .logoResponsive {
+    display: block;
+    float: right;
+  }
+  nav {
+    float: left;
+  }
+  .activarNav {
+    background-color: #87431D;
+    width: 80%;
+    height: 400px;
+      position: absolute;
+  }
+
+  .nav {
+     background-color: #87431D;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 10px;
+    box-sizing: border-box;
+	 display: none;
+    
+  }
+  .activarBotones {
+    display: block;
+  }
+  .bt {
+    display: block;
+    float: none;
+    margin-right: 0px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  #iconoMenuResposive {
+    display: block;
+    float: left;
+  }
+	.bt:hover {
+  
+  background-color: #F0A500;
+}
+	.cajaimagen img {
+	width: 100%;
+	object-fit:contain;
+      
+      
+      
+       
+
+	
+}.cajaimagen h1{
+	font-size: 25px;
+	margin-left: auto;
+	display: none
+    
+    }}
