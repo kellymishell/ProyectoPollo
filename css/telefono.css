@@ -11,8 +11,9 @@ header {
 
 }
 .tele{
-    width: 100%;
+    width: 90%;
     object-fit: contain;
+    height: 500px;
 }
 .logo {
   width: 50px;

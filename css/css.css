@@ -309,34 +309,53 @@ h7{
 	display: none
     
     }.menu2{
-        width: 500px;
+        width: 800px;
         height: 400px;
-        margin-right: 20px;
+        margin-left: -20PX;
+		margin-left: -50px;
+		
+
         
-    } 
+    }.hijo2{
+	margin-top: 550PX;
+		margin-left: 100PX;
+		position: absolute;
+		  width: 280px;
+	}
     .h1{
         font-size: 20px;
+    }.menu1 {
+      width: auto;
+         
+        margin-top: 60px;
+      
+        
     }
     .menu1 img{
-        width:100%; 
-            height:110;
-        margin-top: 30;
-        object-fit: cover;
+        width:90%; 
+         
+     
+      
         
     }
     
     .menu3 img{
         width: 100%;
-        height: 110px;
-        margin-top: 30px;
+
+        margin-top: 600px;
         object-fit: cover;
         
         
     }
     footer{
-width: 100px;
+width: auto;
         height: 200;
         margin-top: 1000px;
         
     }
-}
+	 footer img{
+height: 5px;
+		 width: 20PX;
+		 margin-top: 20PX;
+        
+    }}
